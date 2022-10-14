@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headtotal {
+    width: 1000px;
+    background: red;
+    display: flex;
+    
+}
+header {
+    margin: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+header .titulo {
+    font-size: 3em;
+    width: 20%;
+}
+header nav {
+    width:60%;
+}
+header nav ul {
+    display: flex;
+    /*flex-direction: row;
+    justify-content: flex-star;
+    align-items: stretch;
+    flex-wrap: nowrap;*/
+}
+header nav ul li {
+    list-style: none;
+    margin: 0px 10px ;
+    color: #BBBBBB;
+}
+header nav ul li a {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+header .boton {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .boton button {
+    background-color: turquoise;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 2em;
+}
+
+
