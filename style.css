@@ -12,7 +12,6 @@ body {
 }
 .headtotal {
     width: 1000px;
-    background: red;
     display: flex;
     
 }
@@ -51,7 +50,7 @@ header .boton {
     align-items: center;
 }
 header .boton button {
-    background-color: turquoise;
+    background-color: #17a2b8;
     color: #FFFFFF;
     border-radius: 5px;
     height: 2em;
@@ -60,22 +59,19 @@ header .boton button {
 main {
     width: 1000px;
     margin-top: 20px;
-    height: 400px;
-    background-color: blue;
+    height: auto;
     display: flex;
     flex-direction: row;
 }
 main section {
     width: 60%;
     height: 100%;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
 }
 main aside {
     width: 40%;
     height: 100%;
-    background-color: yellow;
     margin-left: 10px;
 }
 main section .card {
@@ -138,19 +134,25 @@ main section .educacion {
     
 }
 main section .edu_descr {
-    padding: 0px 30px;
+    padding: 0px 0px;
+    border: #333333 solid 2px;
+    margin-right: 10px;
 }
 main section .edu_descr h2 {
     color:#333333;
     padding-top: 8px;
+    padding-left: 30px;
 }
 main section .edu_descr h4 {
     color:#666666;
+    padding-left: 30px;
 }
 main section .edu_descr p {
     color:#333333;
     font-size: 1em;
     padding-top: 4px;
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
 /*ASIDE*/
 main aside {
@@ -159,6 +161,7 @@ main aside {
 }
 main aside section.connection {
     width: 100%;
+    margin-bottom: 20px;
 }
 main aside section .titulo {
     display: flex;
@@ -175,6 +178,10 @@ main aside section .titulo .numero {
     text-align: center;
     margin-right: 10px;
 }
+main aside section .titulo .numero.your {
+    width: 2em;
+    padding: 0 1em;
+}
 main aside section .titulo .numero span {
     color:#000000;
     line-height: 2em;
@@ -184,14 +191,32 @@ main aside section .titulo .numero span {
 main aside section .titulo .texto {
     line-height: 2em;
 }
+main aside .connection .detalle {
+    border: solid 2px #333333;
+    border-top: none;
+}
 main aside .connection .detalle img {
     width: 32px;
-    
+    padding: 0px 10px;
 }
-main aside .connection .detalle {
+main aside .connection .detalle div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     margin: 10px;
     padding: 10px;
 }
 main aside .connection .detalle span {
     line-height: 32px;
+    width: 100%;
+    max-width: 80%;
 }
+main aside section.connection .viewmore {
+    border: #333333 solid 2px;
+    line-height: 3em;
+    border-top: none;
+    padding-left: 30px;
+    text-transform: capitalize;
+
+}
+
