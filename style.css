@@ -1,3 +1,6 @@
+h2, h4, p {
+    margin: 0px;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -70,9 +73,86 @@ main section {
     width: 60%;
     height: 100%;
     background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
 main aside {
     width: 40%;
     height: 100%;
     background-color: yellow;
+    margin-left: 10px;
+}
+main section .card {
+    background: #17a2b8;
+    padding-top: 100px;
+    margin-right: 10px;
+}
+main section .card .perfil {
+    background-color: #FFFFFF;
+    height: 300px;
+    border: solid 2px #333333;
+    border-top: none;
+    padding-left: 30px;
+}
+main section .card .perfil .avatar {
+    width: 120px;
+    position: relative;
+    top: -60px;
+}
+main section .card .perfil .avatar img {
+    width: 120px;
+}
+main section .card .perfil .nombre {
+    font-size: 3em;
+    margin-top: -60px;
+}
+main section .card .perfil .ubicacion {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+main section .card .perfil .ubicacion img {
+    height: 20px;
+    margin-right: 5px;
+}
+main section .card .perfil .ubicacion h3 {
+    margin: 0px;
+}
+main section .card .perfil .cargo p {
+    margin: 16px 0px;
+}
+main section .card .perfil .editar {
+    display: flex;
+    flex-direction: row;
+}
+main section .card .perfil .editar img {
+    height: 20px;
+    margin-right: 5px;
+}
+main section .card .perfil .editar a {
+    text-transform: lowercase;
+    color: #2b78e4;
+}
+main section .educacion {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    
+}
+main section .edu_descr {
+    padding: 0px 30px;
+}
+main section .edu_descr h2 {
+    color:#333333;
+    padding-top: 8px;
+}
+main section .edu_descr h4 {
+    color:#666666;
+}
+main section .edu_descr p {
+    color:#333333;
+    font-size: 1em;
+    padding-top: 4px;
 }
