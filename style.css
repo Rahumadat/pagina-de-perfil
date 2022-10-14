@@ -157,22 +157,41 @@ main aside {
     display: flex;
     flex-direction: column;
 }
-aside section .titulo {
+main aside section.connection {
+    width: 100%;
+}
+main aside section .titulo {
     display: flex;
     flex-direction: row;
     background-color: #333333;
     color: #FFFFFF;
     padding: 10px 30px;
 }
-aside section .titulo .numero {
+main aside section .titulo .numero {
     background-color: #FFFFFF;
     height: 2em;
     width: 2em;
     border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
 }
-aside section .titulo .numero span {
+main aside section .titulo .numero span {
     color:#000000;
     line-height: 2em;
     width: 2em;
     
+}
+main aside section .titulo .texto {
+    line-height: 2em;
+}
+main aside .connection .detalle img {
+    width: 32px;
+    
+}
+main aside .connection .detalle {
+    margin: 10px;
+    padding: 10px;
+}
+main aside .connection .detalle span {
+    line-height: 32px;
 }
